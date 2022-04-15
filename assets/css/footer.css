@@ -1,0 +1,15 @@
+.footer {
+    align-items: center;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    font-family: Raleway, Arial;
+    font-size: 16px;
+    font-weight: 500;
+    height: 102px;
+    justify-content: center;
+    line-height: 18.78px;
+    padding: 32px;
+    text-align: center;
+    width: auto;
+}

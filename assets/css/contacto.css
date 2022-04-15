@@ -1,0 +1,144 @@
+.conozcanos {
+    display: flex;
+    background: #EAF2FD;
+    height: 368px;
+    
+}
+
+.conozcanos__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 64px 152px;
+}
+
+.conozcanos__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.conozcanos__info--lista {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    color: #464646;
+    font-family: "Raleway";
+    font-weight: 500;
+    font-size: 16px;
+    height: 234px;
+    line-height: 18.78px;
+    list-style: none;
+    margin: 24px;
+    order: 1;
+    width: 234px;
+    gap: 24px;
+    
+}
+
+.logo--izquierda {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.logo--inferior {
+    order: 0;
+    
+    
+    
+    
+}
+
+.contacto {
+    display: flex;
+    flex-direction: column;
+   
+  
+}
+
+.contacto__titulo{
+    
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+    
+ 
+}
+
+.contacto__formulario {
+    height: 240px;
+    width: 560px;
+    display:flex;
+    flex-direction: column;
+    text-align: left;
+    display: flex;
+    gap: 8px;
+}
+
+.contacto-input {
+    display: flex;
+    align-items: flex-start;
+    background-color: #FFFFFF;
+    height: 56px;
+    margin-top: 0%;
+    width: 560px;
+}
+
+/*Cambia los settings de fondo para el autorellenado */
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px #FFFFFF inset;
+}
+
+.contacto-textarea {
+    background: #FFFFFF;
+    height: 82px;
+    width: 560px;
+}
+
+.contacto-input::placeholder {
+    color: #A2A2A2;
+    background: #FFFFFF;
+    border-radius: 4px;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 16px; 
+    line-height:20px;
+    position: relative;
+    top: -20px;
+   
+}
+
+.contacto-textarea::placeholder {
+    display: flex;
+    align-items: flex-start;
+    color: #A2A2A2;
+    background: #FFFFFF;
+    border-radius: 4px;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 16px; 
+    line-height:20px;
+}
+
+.contacto-boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    background: #2A7AE4;
+    height: 51px;
+    width: 144px;
+    margin: 0 10px;
+}
+
+
+
+
+

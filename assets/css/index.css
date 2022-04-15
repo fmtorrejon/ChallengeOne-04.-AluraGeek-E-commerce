@@ -1,0 +1,8 @@
+.body {
+    align-items: center;
+    background: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    font-family:  Raleway, "Helvetica Neue", Helvetica, Arial;
+    padding: 0px;
+}

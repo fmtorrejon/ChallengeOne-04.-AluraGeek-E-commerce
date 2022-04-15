@@ -1,0 +1,67 @@
+.header {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    font-family: Raleway;
+    justify-content: space-around;
+    position: relative;
+    width: 100%;
+    height:115px;
+}
+
+.header__container {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+    width: 100%;
+}
+
+.header__marco--izquierdo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+.buscador__input {
+    background: #F5F5F5;
+    border-radius: 2rem;
+    height: 40px;
+    width: 393px;
+    
+}
+.buscador__input::placeholder {
+    background-image: url("../img/lupa.svg");
+    background-repeat: no-repeat;
+    background-position: center right;
+    margin: 0 1rem;
+    background-size: 15px;
+    color: #A2A2A2;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    left: 16px;
+    position: relative;
+    
+
+
+}
+
+.btn__login { 
+    border: 0.1rem #2A7AE4 solid;
+    color: #2A7AE4;
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 16px;
+    height: 48px;
+    line-height: 18.78px;
+    width: 140px;
+    text-align: center;
+}
+
+.logo {
+    padding: auto;
+    position: relative;
+    
+    
+}

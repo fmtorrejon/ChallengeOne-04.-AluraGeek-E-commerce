@@ -1,0 +1,58 @@
+.galeria {
+    display: grid;
+    margin: 0 152px;
+    
+}
+
+.galeria__encabezado {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.galeria__itens--lista{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 8px;
+    grid-auto-rows: minmax(252px, auto);
+}
+.iten__imagen {
+    height: 176px;
+    width: 174px;
+}
+
+.galeria__titulo {
+    color: #464646;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37.57px;
+}
+
+.iten__titulo{
+    color: #464646;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16.44px;
+
+}
+
+.iten__descripcion{
+    color: #464646;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18.78px;
+
+}
+
+.enlace {
+    color: #2A7AE4;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18.78px;
+
+}
